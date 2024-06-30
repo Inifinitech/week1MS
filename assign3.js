@@ -59,9 +59,11 @@ let netSalary;
 function wholeSalary() {
     const nssf = 1080;
     const relief = 2400;
+//variable to prompt user to enter salary
     const grossSalary = parseInt(document.getElementById("salarie").value)
+//variable to prompt user to enter benefits 
     const benefits = parseInt(document.getElementById("benefit").value);
     const totalDeductions = nhifdedct(grosspay) + payededct(grosspay) + nssf;
     netSalary = (grossSalary + benefits + relief) - totalDeductions;
+    document.getElementById("theBank").textContent = `KES ${netSalary.toFixed(2)}`;
 }
-//git remote add origin https://github.com/Inifinitech/week1MS.git
