@@ -40,8 +40,12 @@ NB: Use KRA, NHIF, and NSSF
 #assign1.js
 Upon pressing the button the user is prompted to enter the marks
 The function then interpretes the marks entered into a corresponding grade
+
+
 #assing2.js
 When the user presses the button he is prompted to enter the speed of a vehicle
 The function adds demerits points for the driver and notifies of license suspension when he reaches 12 points
+
+
 #assign3.js
 When the user presses the button the functions calculates the net salary by subtracting every deduction; i.e, PAYE, NSSF, NHIF and outputs the correct figure.
